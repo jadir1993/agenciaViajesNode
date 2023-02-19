@@ -1,0 +1,30 @@
+extends ./layouts/index
+block contenido 
+    main.container.mt-5 
+        .row
+            .col-md-5
+                img(src="img/nosotros.jpg", alt="imagen sobre nosotros", class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae enim rhoncus, ullamcorper augue et, mattis massa. Praesent vel dolor vitae leo consectetur tempor. Etiam nec est nulla. In hac habitasse platea dictumst. Fusce porttitor malesuada laoreet.
+
+                p In molestie nibh ut risus tristique, id congue lectus volutpat. Vivamus dui lacus, scelerisque eu lacinia   interdum, rutrum sit amet ligula. Nulla facilisi. Curabitur aliquam fringilla velit, vel facilisis massa ullamcorper aliquam. Nullam tincidunt tempor ipsum, eget efficitur nunc aliquet et. Nunc nec mauris justo. In massa nisi, dictum id mi id, gravida lacinia felis.
+
+                p Nunc eros erat, cursus eu ante eu, dapibus pharetra justo. Mauris id euismod libero, vel lacinia est. Maecenas ultricies dolor ipsum. Nulla dignissim ex velit. Donec at dui quam. Duis vel leo vel magna pharetra maximus et non sapien. Mauris dictum, massa vitae aliquet volutpat, eros ipsum vestibulum leo, nec accumsan ex elit eu massa. Donec eu tempor orci, sed lacinia est.
+    .listado-iconos
+        .container.mt-5.py-5.text-center
+            .row
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fuid mb-4")
+                    h2.mb-4 seguridad
+                    p Mauris dictum, massa vitae aliquet volutpat, eros ipsum vestibulum leo, nec accumsan ex elit eu massa. Donec eu tempor orci, sed lacinia est.
+                
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono destinos", class="img-fuid mb-4")
+                    h2.mb-4 Mejores Destinos
+                    p Mauris dictum, massa vitae aliquet volutpat, eros ipsum vestibulum leo, nec accumsan ex elit eu massa. Donec eu tempor orci, sed lacinia est.
+
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="icono precios", class="img-fuid mb-4")
+                    h2.mb-4 Los Mejores Precios
+                    p Mauris dictum, massa vitae aliquet volutpat, eros ipsum vestibulum leo, nec accumsan ex elit eu massa. Donec eu tempor orci, sed lacinia est.
